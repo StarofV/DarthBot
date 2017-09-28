@@ -15,4 +15,5 @@ client.run('MzYzMDg0ODMxOTMzODU3Nzk0.DK8EnQ.j_zBpWJJGruxHXbbF0EPBW0bYfI')
 @client.event
 async def on_message(message):
     if message.content.startswith('!test'):
-        await add_reaction(message, ':intel:')
+        print("testing")
+        await add_reaction(message, ':military_medal: ')
