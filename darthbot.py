@@ -17,7 +17,7 @@ async def on_ready():
 async def on_message(message):
     if message.content.startswith('!test'):
         print("testing")
-        await client.add_reaction(message, '/:military_medal: ')
+        await client.add_reaction(message, '🎖')
 
 
 
